@@ -6,15 +6,15 @@ class App < Sinatra::Base
     "Hello, World!"
   end
   
-  get '/' do
+  get '/name' do
     "My name is Cat."
   end
   
-  get '/' do
+  get '/hometown' do
     "My hometown is Lawrenceville."
   end
   
-  get '/' do
+  get '/favorite-song' do
     "My favorite song is 'La vie en Rose', by Louis Armstrong."
   end
   
